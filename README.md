@@ -2,6 +2,11 @@
 ```sh
 composer create-project roots/sage --repository="{\"url\": \"git@github.com:pldevr/sage.git\", \"type\": \"vcs\"}" --stability="dev"
 ```
+### Bud
+pnpm support - https://bud.js.org/learn/general-use/pnpm
+```sh
+pnpm install --public-hoist-pattern='*'
+```
 ---
 <p align="center">
   <a href="https://roots.io/sage/">
